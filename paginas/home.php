@@ -35,13 +35,13 @@
         <td>WorkShop TypeScript - TDW</td>
         <td>Centro Universitário Integrado</td>
         <td>19 de novembro de 2024</td>
-        <td><a href="#" onclick="mostrarCertificado('imagens/certificadotdw.png')">Ver Certificado</a></td>
+        <td><a href="#" onclick="mostrarCertificado('imagens/certificadotdw.PNG')">Ver Certificado</a></td>
       </tr>
       <tr>
         <td>Redes - Fast e Giga</td>
         <td>Intelbras</td>
         <td>8 de agosto de 2022</td>
-        <td><a href="#" onclick="mostrarCertificado('imagens/certificadoredesg.png')">Ver Certificado</a></td>
+        <td><a href="#" onclick="mostrarCertificado('imagens/certificadoredes.PNG')">Ver Certificado</a></td>
       </tr>
     </tbody>
   </table>
