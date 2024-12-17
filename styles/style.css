@@ -1,14 +1,303 @@
-@import url('body.css');
-@import url('main.css');
-@import url('header.css');
-@import url('footer.css');
-
-
-:root{
-    --branco: aliceblue;
-    --cinzaborda: rgb(77, 77, 77);
-    --verdin: #03FA6E;
-    --fonteprincipal: 'Roboto';
-    --fonteSubTitulo: 'Courier New', Courier, monospace;
-}
-
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #000000;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .banner>header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    padding: 0 10%;
+  }
+  
+  .banner>header img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 50px 100px rgb(0 0 0 / 20%);
+  }
+  
+  .banner h2 {
+    margin: 0 0 10px;
+    font-size: 60px;
+    font-weight: 400;
+    color: #00bfff;
+  }
+  
+  .banner p {
+    margin: 0;
+    font-size: 26px;
+    color: rgb(255 255 255 / 60%);
+    padding-right: 50px;
+  }
+  
+  main {
+    position: relative;
+    margin-top: -100vh;
+    z-index: 2;
+    color: #f9f9f9;
+    padding: 0 10% 50px;
+    font-size: 30px;
+  }
+  
+  main p {
+    margin: 0 0 100px;
+    line-height: 1.5;
+    font-size: 26px;
+    color: #848587;
+  }
+  
+  main h2 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #00bfff;
+  }
+  
+  .images {
+    display: flex;
+  }
+  
+  .images>img {
+    flex-shrink: 0;
+    width: 180vw;
+    height: 200vh;
+    object-fit: cover;
+    filter: grayscale(0.86) contrast(1.5) brightness(0.5);
+  }
+  
+  .div-icons {
+  
+    #icon-github,
+    #icon-instagram,
+    #icon-linkedin {
+      font-size: 40px;
+      padding: 20px;
+      color: rgb(255 255 255 / 60%);
+      cursor: pointer;
+      background-color: transparent;
+      transition: 0.8s ease;
+      border: 2px solid #5F9EA0;
+      border-radius: 30px;
+    }
+  
+    #icon-github:hover,
+    #icon-instagram:hover,
+    #icon-linkedin:hover {
+      color: black;
+      cursor: pointer;
+      background-color: #5F9EA0;
+      border-radius: 30px;
+    }
+  
+  }
+  
+  .div-projetos {
+  
+    .projeto-um,
+    .projeto-dois,
+    .projeto-tres {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .button {
+      background-color: #5F9EA0;
+      padding: 4px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      color: black;
+    }
+  
+    .titulo-btn a {
+      font-size: 20px;
+    }
+  
+    .button:hover {
+      background-color: transparent;
+      transition: 0.8s ease;
+      border: 2px solid #5F9EA0;
+      color: rgb(255 255 255 / 60%);
+    }
+  }
+  
+  
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgb(255 255 255 / 60%);
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 12px;
+    text-align: left;
+    border: none;
+  }
+  
+  .project-table tr:hover {
+    background-color: rgb(255 255 255 / 10%);
+  }
+  
+  @media (max-width: 768px) {
+    .project-table thead {
+      display: none;
+    }
+  
+    .project-table tr {
+      display: block;
+      margin-bottom: 15px;
+    }
+  
+    .project-table td {
+      display: block;
+      text-align: right;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    .project-table td:before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      top: 8px;
+      font-weight: bold;
+    }
+  
+    .project-table .titulo-btn a {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+  
+  
+  /*FORMATACAO TABLE DE HABILIDADES*/
+  #table-habilidades {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: transparent;
+    overflow: hidden;
+    font-size: 25px;
+  }
+  
+  #table-habilidades tr:hover {
+    background-color: rgb(255 255 255 / 10%);
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+  
+  th {
+    background-color: #5F9EA0; /*cor anterior #555*/
+    color: black; /*cor anterior rgb(255 255 255 / 80%) */
+  }
+  
+  tr:hover {
+    background-color: #444;
+  }
+  
+  td {
+    color: rgb(255 255 255 / 60%);
+  }
+  
+  td a {
+    color: #5F9EA0;
+    text-decoration: none;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 768px) {
+    #table-habilidades thead {
+      display: none;
+    }
+  
+    #table-habilidades tr {
+      display: block;
+      margin-bottom: 15px;
+    }
+  
+    #table-habilidades td {
+      display: block;
+      text-align: right;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    #table-habilidades td:before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      top: 8px;
+      font-weight: bold;
+    }
+  
+    #table-habilidades td a {
+      display: block;
+      margin-top: 5px;
+    }
+  }
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(255 255 255 / 60%);
+    .icons-footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #icon-html, #icon-css, #icon-php, #icon-js{
+      font-size: 30px;
+      padding: 6px;
+      cursor: pointer;
+    }
+    #icon-html{
+      color: #E44D26;
+    }
+    #icon-css{
+      color: #1572B6;
+    }
+    #icon-php{
+      color: #6A5B8B;
+    }
+    #icon-js{
+      color: #F7DF1E;
+    }
+  
+  }

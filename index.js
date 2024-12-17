@@ -1,27 +1,34 @@
+gsap.registerPlugin(ScrollTrigger);
 
-//const projetosLink = document.getElementById('projetos');
-const vejaMaisLink = document.getElementById('vejaMais');
-const mensagemSpan = document.getElementById('mensagem');
+const showAnim = gsap
+  .from("nav", {
+    yPercent: -100,
+    paused: true,
+    duration: 0.2,
+  })
+  .progress(1);
 
+ScrollTrigger.create({
+  start: "top top",
+  end: "max",
+  onUpdate: (self) => {
+    self.direction === -1 ? showAnim.play() : showAnim.reverse();
+  },
+});
 
-function mostrarMensagem() {
-    mensagemSpan.innerHTML = "Esta página está em desenvolvimento!";
-    mensagemSpan.style.display = "block"; 
-    
-    
-    setTimeout(() => {
-        mensagemSpan.style.display = "none";
-    }, 3000);
-}
-
-
-/*projetosLink.addEventListener('click', (e) => {
-    e.preventDefault(); 
-    mostrarMensagem(); 
-}); */
-
-vejaMaisLink.addEventListener('click', (e) => {
-    e.preventDefault();
-    mostrarMensagem();
+gsap.utils.toArray("section").forEach((section) => {
+  const w = section.querySelector(".images");
+  const [x, xEnd] = [w.scrollWidth * -1, 0];
+  gsap.fromTo(
+    w,
+    { x },
+    {
+      x: xEnd,
+      scrollTrigger: {
+        trigger: section,
+        scrub: 1,
+      },
+    }
+  );
 });
 
