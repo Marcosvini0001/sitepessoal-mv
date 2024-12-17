@@ -41,7 +41,7 @@
         <td>Redes - Fast e Giga</td>
         <td>Intelbras</td>
         <td>8 de agosto de 2022</td>
-        <td><a href="#" onclick="mostrarCertificado('imagens/certificadoredes.png')">Ver Certificado</a></td>
+        <td><a href="#" onclick="mostrarCertificado('imagens/certificadoredesg.png')">Ver Certificado</a></td>
       </tr>
     </tbody>
   </table>
