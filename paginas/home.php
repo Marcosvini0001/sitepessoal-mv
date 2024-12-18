@@ -20,31 +20,32 @@
     </thead>
     <tbody>
       <tr>
-        <td>Curso Nivelamento JAVA</td>
-        <td>Centro Universitário Integrado</td>
-        <td>16 de agosto de 2024</td>
-        <td><a href="#" onclick="mostrarCertificado('imagens/nivelamentojava1.png')">Ver Certificado</a></td>
+        <td data-label="Certificado">Curso Nivelamento JAVA</td>
+        <td data-label="Instituição">Centro Universitário Integrado</td>
+        <td data-label="Data de Conclusão">16 de agosto de 2024</td>
+        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/nivelamentojava1.png')">Ver Certificado</a></td>
       </tr>
       <tr>
-        <td>Curso Nivelamento JAVA</td>
-        <td>Centro Universitário Integrado</td>
-        <td>23 de agosto de 2024</td>
-        <td><a href="#" onclick="mostrarCertificado('imagens/nivelamentojava2.png')">Ver Certificado</a></td>
+        <td data-label="Certificado">Curso Nivelamento JAVA</td>
+        <td data-label="Instituição">Centro Universitário Integrado</td>
+        <td data-label="Data de Conclusão">23 de agosto de 2024</td>
+        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/nivelamentojava2.png')">Ver Certificado</a></td>
       </tr>
       <tr>
-        <td>WorkShop TypeScript - TDW</td>
-        <td>Centro Universitário Integrado</td>
-        <td>19 de novembro de 2024</td>
-        <td><a href="#" onclick="mostrarCertificado('imagens/certificadotdw.PNG')">Ver Certificado</a></td>
+        <td data-label="Certificado">WorkShop TypeScript - TDW</td>
+        <td data-label="Instituição">Centro Universitário Integrado</td>
+        <td data-label="Data de Conclusão">19 de novembro de 2024</td>
+        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/certificadotdw.PNG')">Ver Certificado</a></td>
       </tr>
       <tr>
-        <td>Redes - Fast e Giga</td>
-        <td>Intelbras</td>
-        <td>8 de agosto de 2022</td>
-        <td><a href="#" onclick="mostrarCertificado('imagens/certificadoredes.PNG')">Ver Certificado</a></td>
+        <td data-label="Certificado">Redes - Fast e Giga</td>
+        <td data-label="Instituição">Intelbras</td>
+        <td data-label="Data de Conclusão">8 de agosto de 2022</td>
+        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/certificadoredes.PNG')">Ver Certificado</a></td>
       </tr>
     </tbody>
   </table>
+
 
   <div id="Modal" class="modal">
     <div class="modal-content">
@@ -132,25 +133,49 @@
   <div class="div-projetos">
 
     <table class="project-table">
-
+      <thead>
+        <tr>
+          <th>Projeto</th>
+          <th>Descrição</th>
+          <th>Linguagens</th>
+          <th>Visualizar</th>
+        </tr>
+      </thead>
       <tbody>
         <tr>
-          <td><strong>E-Commerce</strong></td>
-          <td>Desenvolvido na linguagem JAVA</td>
-          <td class="titulo-btn"><a href="https://github.com/Marcosvini0001/Tech-Academy-4" class="button" target="_blank">Acessar Repositório</a></td>
+          <td data-label="Projeto"><strong>E-Commerce</strong></td>
+          <td data-label="Descrição">Desenvolvido na linguagem JAVA</td>
+          <td>
+            <i id="icon-java-projeto" class="fa-brands fa-java" alt="Icone do Java" title="JAVA"></i>
+          </td>
+          <td data-label="Ação" class="titulo-btn">
+            <a href="https://github.com/Marcosvini0001/Tech-Academy-4" class="button" target="_blank">Acessar Repositório</a>
+          </td>
         </tr>
         <tr>
-          <td><strong>GreenLife</strong></td>
-          <td>Front-end básico - Em desenvolvimento</td>
-          <td class="titulo-btn"><a href="https://github.com/Marcosvini0001/GreenLife-portfolio" class="button" target="_blank">Acessar Repositório</a></td>
+          <td data-label="Projeto"><strong>GreenLife</strong></td>
+          <td data-label="Descrição">Front-end básico - Em desenvolvimento</td>
+          <td>
+            <i id="icon-html-projeto" class="fa-brands fa-html5"  alt="Icone do HTML" title="HTML"></i>
+            <i id="icon-css-projeto" class="fa-brands fa-css3-alt"  alt="Icone do CSS" title="CSS"></>
+          </td>
+          <td data-label="Ação" class="titulo-btn">
+            <a href="https://github.com/Marcosvini0001/GreenLife-portfolio" class="button" target="_blank">Acessar Repositório</a>
+          </td>
         </tr>
         <tr>
-          <td><strong>Text Adventure - Game</strong></td>
-          <td>Desenvolvido na linguagem JAVA</td>
-          <td class="titulo-btn"><a href="https://github.com/Koda012/TechAcademy-3" class="button" target="_blank">Acessar Repositório</a></td>
+          <td data-label="Projeto"><strong>Text Adventure - Game</strong></td>
+          <td data-label="Descrição">Desenvolvido na linguagem JAVA</td>
+          <td>
+            <i id="icon-java-projeto" class="fa-brands fa-java"  alt="Icone do Java" title="JAVA"></i>
+          </td>
+          <td data-label="Ação" class="titulo-btn">
+            <a href="https://github.com/Koda012/TechAcademy-3" class="button" target="_blank">Acessar Repositório</a>
+          </td>
         </tr>
       </tbody>
     </table>
+
 
   </div>
   <h2><strong>Entre em contato</strong></h2>
