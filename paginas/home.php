@@ -180,9 +180,9 @@
   </div>
   <h2><strong>Entre em contato</strong></h2>
   <div class="div-icons">
-    <a href="#"> <i id="icon-github" class="fa-brands fa-github" title="GitHub" alt="GitHub"></i></a>
-    <a href="#"> <i id="icon-instagram" class="fa-brands fa-instagram" title="Instagram" alt="Instagram"></i></a>
-    <a href="#"> <i id="icon-linkedin" class="fa-brands fa-linkedin-in" title="Linkedin" alt="Linkedin"></i></a>
+    <a href="https://github.com/Marcosvini0001"> <i id="icon-github" class="fa-brands fa-github" title="GitHub" alt="GitHub"></i></a>
+    <a href="https://www.instagram.com/marcosvn06/"> <i id="icon-instagram" class="fa-brands fa-instagram" title="Instagram" alt="Instagram"></i></a>
+    <a href="https://www.linkedin.com/in/marcos-vinicius-485726297/"> <i id="icon-linkedin" class="fa-brands fa-linkedin-in" title="Linkedin" alt="Linkedin"></i></a>
 
   </div>
 </main>
