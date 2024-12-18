@@ -29,7 +29,7 @@
           < Seja Bem-vindo! />
         </p>
       </div>
-      <img src="imagens/mv.png" />
+      <img class="img-header" src="imagens/mv.png" />
     </header>
     <div class="images">
       <img src="imagens/4.jpeg" />
