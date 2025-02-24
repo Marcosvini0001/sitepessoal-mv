@@ -23,25 +23,25 @@
         <td data-label="Certificado">Curso Nivelamento JAVA</td>
         <td data-label="Instituição">Centro Universitário Integrado</td>
         <td data-label="Data de Conclusão">16 de agosto de 2024</td>
-        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/nivelamentojava1.png')">Ver Certificado</a></td>
+        <td data-label="Visualizar"><a href="javascript:;" onclick="mostrarCertificado('imagens/nivelamentojava1.png')">Ver Certificado</a></td>
       </tr>
       <tr>
         <td data-label="Certificado">Curso Nivelamento JAVA</td>
         <td data-label="Instituição">Centro Universitário Integrado</td>
         <td data-label="Data de Conclusão">23 de agosto de 2024</td>
-        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/nivelamentojava2.png')">Ver Certificado</a></td>
+        <td data-label="Visualizar"><a href="javascript:;" onclick="mostrarCertificado('imagens/nivelamentojava2.png')">Ver Certificado</a></td>
       </tr>
       <tr>
         <td data-label="Certificado">WorkShop TypeScript - TDW</td>
         <td data-label="Instituição">Centro Universitário Integrado</td>
         <td data-label="Data de Conclusão">19 de novembro de 2024</td>
-        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/certificadotdw.PNG')">Ver Certificado</a></td>
+        <td data-label="Visualizar"><a href="javascript:;" onclick="mostrarCertificado('imagens/certificadotdw.PNG')">Ver Certificado</a></td>
       </tr>
       <tr>
         <td data-label="Certificado">Redes - Fast e Giga</td>
         <td data-label="Instituição">Intelbras</td>
         <td data-label="Data de Conclusão">8 de agosto de 2022</td>
-        <td data-label="Visualizar"><a href="#" onclick="mostrarCertificado('imagens/certificadoredes.PNG')">Ver Certificado</a></td>
+        <td data-label="Visualizar"><a href="javascript:;" onclick="mostrarCertificado('imagens/certificadoredes.PNG')">Ver Certificado</a></td>
       </tr>
     </tbody>
   </table>
