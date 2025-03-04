@@ -35,11 +35,24 @@ body {
   box-shadow: 0 50px 100px rgb(0 0 0 / 20%);
 }
 
-.banner h2 {
+#h2-principal {
   margin: 0 0 10px;
   font-size: 60px;
   font-weight: 400;
   color: #00bfff;
+}
+
+.p-principal {
+  margin: 0;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-right: 50px;
+  letter-spacing: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid rgba(255, 255, 255, 0.6);
+  width: 0;
+  animation: typing 3s steps(40, end) forwards, blink 0.3s infinite;
 }
 
 @keyframes typing {
@@ -55,18 +68,6 @@ body {
   50% {
     border-color: transparent;
   }
-}
-.p-principal {
-  margin: 0;
-  font-size: 40px;
-  color: rgba(255, 255, 255, 0.6);
-  padding-right: 50px;
-  letter-spacing: 10px;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 2px solid rgba(255, 255, 255, 0.6);
-  width: 0;
-  animation: typing 3s steps(40, end) forwards, blink 0.3s infinite;
 }
 
 #p-resp {
@@ -183,7 +184,7 @@ main h2 {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
-  font-size: 16px; /* Ajustado para melhorar a legibilidade em dispositivos móveis */
+  font-size: 16px;
   color: rgb(255 255 255 / 60%);
   box-sizing: border-box;
 }
@@ -201,7 +202,7 @@ main h2 {
 
 @media (max-width: 768px) {
   .project-table thead {
-    display: none; /* Esconde o cabeçalho em dispositivos móveis */
+    display: none;
   }
 
   .project-table tr {
@@ -217,7 +218,7 @@ main h2 {
   }
 
   .project-table td:before {
-    content: attr(data-label); /* Exibe o nome da coluna antes do conteúdo */
+    content: attr(data-label);
     position: absolute;
     left: 10px;
     top: 8px;
@@ -253,7 +254,7 @@ main h2 {
   border-collapse: collapse;
   background-color: transparent;
   overflow: hidden;
-  font-size: 16px; /* Ajustado para melhor leitura em dispositivos móveis */
+  font-size: 16px;
   box-sizing: border-box;
 }
 
@@ -292,7 +293,7 @@ td a:hover {
 
 @media (max-width: 768px) {
   #table-habilidades thead {
-    display: none; /* Esconde o cabeçalho da tabela em dispositivos móveis */
+    display: none;
   }
 
   #table-habilidades tr {
@@ -308,7 +309,7 @@ td a:hover {
   }
 
   #table-habilidades td:before {
-    content: attr(data-label); /* Exibe o título da coluna antes do dado */
+    content: attr(data-label);
     position: absolute;
     left: 10px;
     top: 8px;
@@ -372,5 +373,17 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1300px) {
+  #p-resp {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .p-principal {
+    display: none;
   }
 }
