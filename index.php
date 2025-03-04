@@ -24,8 +24,11 @@
     <header>
       <div>
         <h2><strong>Marcos Vinicius Bartoli Senko</strong></h2>
-        <p>
+        <p class="p-principal">
           <!--< 🔌 Conectando... Usuário detectado. />-->
+          < Seja Bem-vindo ao meu portfólio! />
+        </p>
+        <p id="p-resp">
           < Seja Bem-vindo ao meu portfólio! />
         </p>
       </div>

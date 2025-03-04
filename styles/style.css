@@ -56,8 +56,7 @@ body {
     border-color: transparent;
   }
 }
-
-.banner p {
+.p-principal {
   margin: 0;
   font-size: 40px;
   color: rgba(255, 255, 255, 0.6);
@@ -68,6 +67,23 @@ body {
   border-right: 2px solid rgba(255, 255, 255, 0.6);
   width: 0;
   animation: typing 3s steps(40, end) forwards, blink 0.3s infinite;
+}
+
+#p-resp {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 1300px) {
+  #p-resp {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .p-principal {
+    display: none;
+  }
 }
 
 main {
