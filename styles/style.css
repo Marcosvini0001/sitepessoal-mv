@@ -42,6 +42,13 @@ body {
   color: #00bfff;
 }
 
+#h2-resp {
+  margin: 0 0 10px;
+  font-size: 45px;
+  font-weight: 400;
+  color: #00bfff;
+}
+
 .p-principal {
   margin: 0;
   font-size: 40px;
@@ -384,6 +391,17 @@ footer {
 
 @media (max-width: 1300px) {
   .p-principal {
+    display: none;
+  }
+}
+
+@media (min-width: 549px) {
+  #h2-resp {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  #h2-principal {
     display: none;
   }
 }

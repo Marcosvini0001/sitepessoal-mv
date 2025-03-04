@@ -24,7 +24,7 @@
     <header>
       <div>
         <h2 id="h2-principal"><strong>Marcos Vinicius Bartoli Senko</strong></h2>
-        <h2><strong>Marcos Vinicius Bartoli Senko</strong></h2>
+        <h2 id="h2-resp"><strong>Marcos Vinicius Bartoli Senko</strong></h2>
         <p class="p-principal">
           <!--< 🔌 Conectando... Usuário detectado. />-->
           < Seja Bem-vindo ao meu portfólio! />
