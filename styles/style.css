@@ -5,7 +5,8 @@
 body {
   overflow-x: hidden;
   margin: 0;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #000000;
 }
 
@@ -13,7 +14,7 @@ body {
   position: relative;
 }
 
-.banner>header {
+.banner > header {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,7 +27,7 @@ body {
   padding: 0 10%;
 }
 
-.banner>header img {
+.banner > header img {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -41,11 +42,32 @@ body {
   color: #00bfff;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .banner p {
   margin: 0;
-  font-size: 26px;
-  color: rgb(255 255 255 / 60%);
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.6);
   padding-right: 50px;
+  letter-spacing: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid rgba(255, 255, 255, 0.6);
+  width: 0;
+  animation: typing 3s steps(40, end) forwards, blink 0.3s infinite;
 }
 
 main {
@@ -74,7 +96,7 @@ main h2 {
   display: flex;
 }
 
-.images>img {
+.images > img {
   flex-shrink: 0;
   width: 180vw;
   height: 200vh;
@@ -83,7 +105,6 @@ main h2 {
 }
 
 .div-icons {
-
   #icon-github,
   #icon-instagram,
   #icon-linkedin {
@@ -93,7 +114,7 @@ main h2 {
     cursor: pointer;
     background-color: transparent;
     transition: 0.8s ease;
-    border: 2px solid #5F9EA0;
+    border: 2px solid #5f9ea0;
     border-radius: 30px;
   }
 
@@ -102,10 +123,9 @@ main h2 {
   #icon-linkedin:hover {
     color: black;
     cursor: pointer;
-    background-color: #5F9EA0;
+    background-color: #5f9ea0;
     border-radius: 30px;
   }
-
 }
 
 .div-projetos {
@@ -121,7 +141,7 @@ main h2 {
   }
 
   .button {
-    background-color: #5F9EA0;
+    background-color: #5f9ea0;
     padding: 4px;
     border-radius: 6px;
     border: none;
@@ -138,12 +158,10 @@ main h2 {
   .button:hover {
     background-color: transparent;
     transition: 0.8s ease;
-    border: 2px solid #5F9EA0;
+    border: 2px solid #5f9ea0;
     color: rgb(255 255 255 / 60%);
   }
 }
-
-
 
 .project-table {
   width: 100%;
@@ -196,20 +214,21 @@ main h2 {
   }
 }
 
-#icon-java-projeto, #icon-html-projeto, #icon-css-projeto{
+#icon-java-projeto,
+#icon-html-projeto,
+#icon-css-projeto {
   font-size: 30px;
   cursor: pointer;
 }
-#icon-java-projeto{
+#icon-java-projeto {
   color: #d92e2f;
 }
-#icon-html-projeto{
-  color: #E44D26;
+#icon-html-projeto {
+  color: #e44d26;
 }
-#icon-css-projeto{
-  color: #1572B6;
+#icon-css-projeto {
+  color: #1572b6;
 }
-
 
 /*FORMATACAO TABLE DE HABILIDADES*/
 #table-habilidades {
@@ -234,7 +253,7 @@ td {
 }
 
 th {
-  background-color: #5F9EA0;
+  background-color: #5f9ea0;
   color: black;
 }
 
@@ -247,7 +266,7 @@ td {
 }
 
 td a {
-  color: #5F9EA0;
+  color: #5f9ea0;
   text-decoration: none;
 }
 
@@ -286,8 +305,7 @@ td a:hover {
   }
 }
 
-
-footer{
+footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -295,48 +313,48 @@ footer{
   align-items: center;
   color: rgb(255 255 255 / 60%);
   box-sizing: border-box;
-  .icons-footer{
+  .icons-footer {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  #icon-html, #icon-css, #icon-php, #icon-js{
+  #icon-html,
+  #icon-css,
+  #icon-php,
+  #icon-js {
     font-size: 30px;
     padding: 6px;
     cursor: pointer;
   }
-  #icon-html{
-    color: #E44D26;
+  #icon-html {
+    color: #e44d26;
   }
-  #icon-css{
-    color: #1572B6;
+  #icon-css {
+    color: #1572b6;
   }
-  #icon-php{
-    color: #6A5B8B;
+  #icon-php {
+    color: #6a5b8b;
   }
-  #icon-js{
-    color: #F7DF1E;
+  #icon-js {
+    color: #f7df1e;
   }
-
 }
 
-
 @media (max-width: 580px) {
-  header{
+  header {
     box-sizing: border-box;
-    body{
+    body {
       box-sizing: border-box;
     }
   }
-  .img-header{
+  .img-header {
     display: none;
   }
-  .div-header{
+  .div-header {
     display: flex;
     font-size: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
 }

@@ -26,7 +26,7 @@
         <h2><strong>Marcos Vinicius Bartoli Senko</strong></h2>
         <p>
           <!--< 🔌 Conectando... Usuário detectado. />-->
-          < Seja Bem-vindo! />
+          < Seja Bem-vindo ao meu portfólio! />
         </p>
       </div>
       <img class="img-header" src="imagens/mv.png" />
