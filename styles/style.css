@@ -120,13 +120,13 @@ main h2 {
   #icon-github,
   #icon-instagram,
   #icon-linkedin {
-    font-size: 40px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 15px;
     color: rgb(255 255 255 / 60%);
     cursor: pointer;
     background-color: transparent;
     transition: 0.8s ease;
-    border: 2px solid #5f9ea0;
+    border: 2px solid transparent;
     border-radius: 30px;
   }
 
