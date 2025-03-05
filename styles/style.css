@@ -42,7 +42,7 @@ body {
   color: #00bfff;
 }
 
-#h4-redes {
+#h4-titles {
   margin: 0 0 10px;
   font-size: 40px;
   font-weight: 400;
@@ -421,7 +421,7 @@ footer {
 }
 
 @media (max-width: 505px) {
-  #h4-redes {
+  #h4-titles {
     font-size: 30px;
   }
 }

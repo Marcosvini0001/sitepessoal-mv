@@ -1,5 +1,5 @@
 <main>
-  <h2><strong>Introdução</strong></h2>
+  <h4 id="h4-titles"><strong>Introdução</strong></h4>
   <p id="p-main">
     Marcos Vinicius, 20 anos, de Campo Mourão - PR. Estou no segundo período
     de Análise e Desenvolvimento de Sistemas (TADS) e estou em constante evolução para me tornar um
@@ -8,7 +8,7 @@
   </p>
 
 
-  <h2><strong>Habilidades</strong></h2>
+  <h4 id="h4-titles"><strong>Habilidades</strong></h4>
   <table id="table-habilidades">
     <thead>
       <tr>
@@ -129,7 +129,7 @@
     }
   </style>
 
-  <h2><strong>Projetos</strong></h2>
+  <h4 id="h4-titles"><strong>Projetos</strong></h4>
   <div class="div-projetos">
 
     <table class="project-table">
@@ -149,7 +149,7 @@
             <i id="icon-java-projeto" class="fa-brands fa-java" alt="Icone do Java" title="JAVA"></i>
           </td>
           <td data-label="Ação" class="titulo-btn">
-            <a href="https://github.com/Marcosvini0001/Tech-Academy-4" class="button" target="_blank">Acessar Repositório</a>
+            <a href="https://github.com/Marcosvini0001/Tech-Academy-4" class="button" target="_blank">Repositório</a>
           </td>
         </tr>
         <tr>
@@ -160,7 +160,7 @@
             <i id="icon-css-projeto" class="fa-brands fa-css3-alt"  alt="Icone do CSS" title="CSS"></>
           </td>
           <td data-label="Ação" class="titulo-btn">
-            <a href="https://github.com/Marcosvini0001/GreenLife-portfolio" class="button" target="_blank">Acessar Repositório</a>
+            <a href="https://github.com/Marcosvini0001/GreenLife-portfolio" class="button" target="_blank">Repositório</a>
           </td>
         </tr>
         <tr>
@@ -170,7 +170,7 @@
             <i id="icon-java-projeto" class="fa-brands fa-java"  alt="Icone do Java" title="JAVA"></i>
           </td>
           <td data-label="Ação" class="titulo-btn">
-            <a href="https://github.com/Koda012/TechAcademy-3" class="button" target="_blank">Acessar Repositório</a>
+            <a href="https://github.com/Koda012/TechAcademy-3" class="button" target="_blank">Repositório</a>
           </td>
         </tr>
       </tbody>
@@ -178,7 +178,7 @@
 
 
   </div>
-  <h4 id="h4-redes"><strong>Entre em contato</strong></h4>
+  <h4 id="h4-titles"><strong>Entre em contato</strong></h4>
   <div class="div-icons">
     <a href="https://github.com/Marcosvini0001"> <i id="icon-github" class="fa-brands fa-github" title="GitHub" alt="GitHub"></i></a>
     <a href="https://www.instagram.com/marcosvn06/"> <i id="icon-instagram" class="fa-brands fa-instagram" title="Instagram" alt="Instagram"></i></a>
