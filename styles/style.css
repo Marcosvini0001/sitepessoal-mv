@@ -195,37 +195,6 @@ main h2 {
   background-color: rgb(255 255 255 / 10%);
 }
 
-@media (max-width: 768px) {
-  .project-table thead {
-    display: none;
-  }
-
-  .project-table tr {
-    display: block;
-    margin-bottom: 15px;
-  }
-
-  .project-table td {
-    display: block;
-    text-align: right;
-    position: relative;
-    padding-left: 50%;
-  }
-
-  .project-table td:before {
-    content: attr(data-label);
-    position: absolute;
-    left: 10px;
-    top: 8px;
-    font-weight: bold;
-  }
-
-  .project-table .titulo-btn a {
-    display: block;
-    margin-top: 10px;
-  }
-}
-
 #icon-java-projeto,
 #icon-html-projeto,
 #icon-css-projeto {
@@ -286,37 +255,6 @@ td a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  #table-habilidades thead {
-    display: none;
-  }
-
-  #table-habilidades tr {
-    display: block;
-    margin-bottom: 15px;
-  }
-
-  #table-habilidades td {
-    display: block;
-    text-align: right;
-    position: relative;
-    padding-left: 50%;
-  }
-
-  #table-habilidades td:before {
-    content: attr(data-label);
-    position: absolute;
-    left: 10px;
-    top: 8px;
-    font-weight: bold;
-  }
-
-  #table-habilidades td a {
-    display: block;
-    margin-top: 5px;
-  }
-}
-
 footer {
   display: flex;
   justify-content: center;
@@ -352,6 +290,68 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+  #table-habilidades thead {
+    display: none;
+  }
+
+  #table-habilidades tr {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  #table-habilidades td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  #table-habilidades td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-weight: bold;
+  }
+
+  #table-habilidades td a {
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-table thead {
+    display: none;
+  }
+
+  .project-table tr {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .project-table td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .project-table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-weight: bold;
+  }
+
+  .project-table .titulo-btn a {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
 @media (max-width: 580px) {
   header {
     box-sizing: border-box;
@@ -362,6 +362,7 @@ footer {
   .img-header {
     display: none;
   }
+
   .div-header {
     display: flex;
     font-size: 5px;
