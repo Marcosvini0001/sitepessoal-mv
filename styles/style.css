@@ -82,18 +82,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media (min-width: 1300px) {
-  #p-resp {
-    display: none;
-  }
-}
-
-@media (max-width: 1300px) {
-  .p-principal {
-    display: none;
-  }
-}
-
 main {
   position: relative;
   margin-top: -100vh;
@@ -103,7 +91,7 @@ main {
   font-size: 30px;
 }
 
-main p {
+#p-main {
   margin: 0 0 100px;
   line-height: 1.5;
   font-size: 26px;
@@ -400,8 +388,26 @@ footer {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   #h2-principal {
     display: none;
+  }
+}
+
+@media (min-width: 1300px) {
+  #p-resp {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .p-principal {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  #p-main {
+    font-size: 18px;
   }
 }
