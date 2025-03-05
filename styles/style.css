@@ -35,14 +35,14 @@ body {
   box-shadow: 0 50px 100px rgb(0 0 0 / 20%);
 }
 
-#h2-principal {
+.h2-principal {
   margin: 0 0 10px;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
   color: #00bfff;
 }
 
-#h2-resp {
+.h3-resp {
   margin: 0 0 10px;
   font-size: 45px;
   font-weight: 400;
@@ -51,9 +51,9 @@ body {
 
 .p-principal {
   margin: 0;
-  font-size: 40px;
+  font-size: 30px;
   color: rgba(255, 255, 255, 0.6);
-  padding-right: 50px;
+  padding-right: 40px;
   letter-spacing: 10px;
   overflow: hidden;
   white-space: nowrap;
@@ -67,7 +67,7 @@ body {
     width: 0;
   }
   to {
-    width: 100%;
+    width: 94%;
   }
 }
 
@@ -385,12 +385,12 @@ footer {
 }
 
 @media (min-width: 549px) {
-  #h2-resp {
+  .h3-resp {
     display: none;
   }
 }
 @media (max-width: 550px) {
-  #h2-principal {
+  .h2-principal {
     display: none;
   }
 }

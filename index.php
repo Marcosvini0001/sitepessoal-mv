@@ -23,8 +23,8 @@
   <section class="banner">
     <header>
       <div>
-        <h2 id="h2-principal"><strong>Marcos Vinicius Bartoli Senko</strong></h2>
-        <h2 id="h2-resp"><strong>Marcos Vinicius Bartoli Senko</strong></h2>
+        <h2 class="h2-principal"><strong>Marcos Vinicius Bartoli Senko</strong></h2>
+        <h3 class="h3-resp"><strong>Marcos Vinicius Bartoli Senko</strong></h3>
         <p class="p-principal">
           <!--< 🔌 Conectando... Usuário detectado. />-->
           < Seja Bem-vindo ao meu portfólio! />
