@@ -42,6 +42,13 @@ body {
   color: #00bfff;
 }
 
+#h4-redes {
+  margin: 0 0 10px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #00bfff;
+}
+
 .h3-resp {
   margin: 0 0 10px;
   font-size: 45px;
@@ -410,5 +417,11 @@ footer {
 @media (max-width: 550px) {
   #p-main {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 505px) {
+  #h4-redes {
+    font-size: 30px;
   }
 }

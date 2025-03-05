@@ -178,7 +178,7 @@
 
 
   </div>
-  <h2><strong>Entre em contato</strong></h2>
+  <h4 id="h4-redes"><strong>Entre em contato</strong></h4>
   <div class="div-icons">
     <a href="https://github.com/Marcosvini0001"> <i id="icon-github" class="fa-brands fa-github" title="GitHub" alt="GitHub"></i></a>
     <a href="https://www.instagram.com/marcosvn06/"> <i id="icon-instagram" class="fa-brands fa-instagram" title="Instagram" alt="Instagram"></i></a>
