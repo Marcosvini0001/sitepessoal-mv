@@ -204,7 +204,9 @@ main h2 {
 
 #icon-java-projeto,
 #icon-html-projeto,
-#icon-css-projeto {
+#icon-css-projeto,
+#icon-node-projeto,
+#icon-react-projeto {
   font-size: 30px;
   cursor: pointer;
 }
@@ -216,6 +218,12 @@ main h2 {
 }
 #icon-css-projeto {
   color: #1572b6;
+}
+#icon-node-projeto {
+  color: #8cc84b;
+}
+#icon-react-projeto {
+  color: #61dafb;
 }
 
 /*FORMATACAO TABLE DE HABILIDADES*/
