@@ -175,14 +175,14 @@
         </tr>
         <tr>
           <td data-label="Projeto"><strong>E-Commerce</strong></td>
-          <td data-label="Descrição">Em desenvolvimento</td>
+          <td data-label="Descrição">Disponível em breve</td>
           <td>
           <i id="icon-node-projeto" class="fa-brands fa-node-js" alt="Icon Node.JS" title="Node.JS"></i>
           <i id="icon-react-projeto" class="fa-brands fa-react" alt="Icon React.JS" title="React.JS"></i>
           </td>
-          <td data-label="Ação" class="titulo-btn">
-            <a href="https://github.com/Marcosvini0001/tech-academy5" class="button" target="_blank">Repositório</a>
-          </td>
+          <!--<td data-label="Ação" class="titulo-btn">
+            <a href="" class="button" target="_blank">Repositório</a>
+          </td>-->
         </tr>
       </tbody>
     </table>
